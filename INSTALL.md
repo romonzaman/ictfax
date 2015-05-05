@@ -24,7 +24,10 @@ To install above requirements, first of all we need to install their respective 
 
 ```bash
 rpm -Uvh 'http://service.ictinnovations.com/repo/6/ict-release-6-2.noarch.rpm'
+-32bit
 rpm -Uvh 'http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm'
+-64bit
+rpm -Uvh 'http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm'
 rpm -Uvh 'http://files.freeswitch.org/freeswitch-release-1-0.noarch.rpm'
 ```
 
